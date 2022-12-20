@@ -20,7 +20,7 @@ jobs:
         name: Build
         uses: docker/build-push-action@v3
         with:
-          context: services/.
+          context: .
           push: true
           tags: s120245/sybersec:services
       -
