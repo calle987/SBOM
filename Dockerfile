@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 RUN mkdir /usr/src/app 
 WORKDIR /usr/src/app
