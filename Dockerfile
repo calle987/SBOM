@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 
 RUN mkdir /usr/src/app 
 WORKDIR /usr/src/app
